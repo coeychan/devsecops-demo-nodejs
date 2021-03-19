@@ -2,7 +2,11 @@ name: Build
 on:
   push:
     branches:
+<<<<<<< HEAD
       - master
+=======
+      - develop
+>>>>>>> origin/develop
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
